@@ -1,0 +1,16 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/unicum-gg/integrations
+- https://n8n.io/integrations/unicum-gg/
+- https://composio.dev/toolkits/unicum-gg
+- https://monid.ai/tools/unicum-gg
+checked:
+- https://composio.dev/toolkits/unicum-gg
+- https://monid.ai/tools/unicum-gg
+- https://n8n.io/integrations/unicum-gg/
+- https://zapier.com/apps/unicum-gg/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,26 +1,86 @@
 aid: unicum-gg
+
 name: unicum.gg
-description: 'unicum.gg is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'unicum.gg provides a web platform delivering real‑time World of Tanks player, clan and tank statistics. The site aggregates live streaming data, top player rankings, and detailed performance metrics, offering developers access to game‑related data via its API. It serves the gaming community with searchable player profiles, clan information, and glossary terms, all presented through a modern Next.js interface.'
+
 url: https://raw.githubusercontent.com/api-evangelist/unicum-gg/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Gaming
+- Statistics
+- API
+- WorldOfTanks
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/unicum-gg-llms.txt
+- type: WellKnown
+  url: well-known/unicum-gg-well-known.yml
+- type: Hosts
+  url: hosts/unicum-gg-hosts.yml
+- type: Vendors
+  url: vendors/unicum-gg-vendors.yml
+- type: DomainSecurity
+  url: security/unicum-gg-domain-security.yml
 - type: Website
   url: https://unicum.gg
+- type: Documentation
+  url: https://unicum.gg/docs
+- type: APIReference
+  url: https://unicum.gg/docs.md
+- type: AgentSkill
+  url: https://unicum.gg/.well-known/agent-skills/index.json
+- type: APICatalog
+  url: https://unicum.gg/.well-known/api-catalog
+- type: MCPServerCard
+  url: https://unicum.gg/.well-known/mcp/server-card.json
+- type: Support
+  url: https://unicum.gg/support
+
+apis: []
+
 x-submission-notes: OpenAPI 3.1, 119 ops; llms.txt; claims MCP + server card; open source. Likely re-serves
   Wargaming API data -- check terms
+
 x-submitted-by: contact@unicum.gg (apis.io/add, 2026-10-23)
+
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  method: derived
+  generated: '2026-10-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company's own front door answers a browser with an anti-bot challenge, so nothing behind it is reachable by any reader
+  evidence:
+  - url: https://unicum.gg/mcp
+    status: 403
+  - url: https://unicum.gg
+    status: 403
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

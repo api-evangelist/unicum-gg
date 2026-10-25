@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "gg.unicum/wot-stats",
+  "version": "0.1.0",
+  "title": "unicum.gg",
+  "description": "World of Tanks stats for players, clans and tanks across EU, NA, and Asia.",
+  "websiteUrl": "https://unicum.gg",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/unicum-gg/unicum.gg"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://unicum.gg/api/mcp"
+    }
+  ]
+}

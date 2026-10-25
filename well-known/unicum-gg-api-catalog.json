@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://unicum.gg/api",
+      "service-desc": [
+        {
+          "href": "https://unicum.gg/api/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://unicum.gg/docs",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://unicum.gg/api/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}
