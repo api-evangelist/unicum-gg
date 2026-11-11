@@ -63,7 +63,6 @@ apis: []
 x-submission-notes: OpenAPI 3.1, 119 ops; llms.txt; claims MCP + server card; open source. Likely re-serves
   Wargaming API data -- check terms
 
-x-submitted-by: contact@unicum.gg (apis.io/add, 2026-10-23)
 
 x-coverage:
   state: blocked
