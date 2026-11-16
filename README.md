@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-unicum.gg is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://unicum.gg
+unicum.gg provides free World of Tanks player, clan, and tank statistics across EU, NA, and Asia. It offers detailed WN8, WNX, winrate, tank progression, and historical rankings, enabling gamers to track performance and compare with others. The service aggregates data from Wargaming APIs and presents it via a public API for developers and enthusiasts.
+
+**Areas:** Gaming · Stats · World of Tanks · Leaderboards · API
+
+## unicum.gg on APIs.io
+
+Everything profiled for unicum.gg is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/unicum-gg/](https://apis.io/providers/unicum-gg/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [unicum.gg MCP API](https://apis.io/apis/unicum-gg/unicum-gg-mcp-api/) — The MCP API from unicum.gg — 1 operation(s) for mcp.
+- [unicum.gg OG Images API](https://apis.io/apis/unicum-gg/unicum-gg-og-images-api/) — The OG Images API from unicum.gg — 10 operation(s) for og images.
+- [unicum.gg Server API](https://apis.io/apis/unicum-gg/unicum-gg-server-api/) — The Server API from unicum.gg — 4 operation(s) for server.
+- [unicum.gg Streamers API](https://apis.io/apis/unicum-gg/unicum-gg-streamers-api/) — The Streamers API from unicum.gg — 3 operation(s) for streamers.
+- [unicum.gg System API](https://apis.io/apis/unicum-gg/unicum-gg-system-api/) — The System API from unicum.gg — 10 operation(s) for system.
+- [unicum.gg Tanks API](https://apis.io/apis/unicum-gg/unicum-gg-tanks-api/) — The Tanks API from unicum.gg — 30 operation(s) for tanks.
+- [unicum.gg Tournaments API](https://apis.io/apis/unicum-gg/unicum-gg-tournaments-api/) — The Tournaments API from unicum.gg — 5 operation(s) for tournaments.
+- [unicum.gg Clans API](https://apis.io/apis/unicum-gg/unicum-gg-clans-api/) — The Clans API from unicum.gg — 19 operation(s) for clans.
+- [unicum.gg Glossary API](https://apis.io/apis/unicum-gg/unicum-gg-glossary-api/) — The Glossary API from unicum.gg — 4 operation(s) for glossary.
+- [unicum.gg Maps API](https://apis.io/apis/unicum-gg/unicum-gg-maps-api/) — The Maps API from unicum.gg — 15 operation(s) for maps.
+- [unicum.gg Players API](https://apis.io/apis/unicum-gg/unicum-gg-players-api/) — The Players API from unicum.gg — 28 operation(s) for players.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [unicum.gg Agentic Access](https://apis.io/agentic-access/unicum-gg/unicum-gg-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BattleDetailResponse](https://apis.io/schemas/unicum-gg/unicum-gg-battle-detail-response/)
+- [BattleReplayResponse](https://apis.io/schemas/unicum-gg/unicum-gg-battle-replay-response/)
+- [Coverage](https://apis.io/schemas/unicum-gg/unicum-gg-coverage/)
+- [PlayerDetailResponse](https://apis.io/schemas/unicum-gg/unicum-gg-player-detail-response/)
+- [PlayerTankDetail](https://apis.io/schemas/unicum-gg/unicum-gg-player-tank-detail/)
+- [TankDetail](https://apis.io/schemas/unicum-gg/unicum-gg-tank-detail/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Unicum Gg Context](https://apis.io/jsonld/unicum-gg/unicum-gg-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [unicum.gg API Rules](https://apis.io/rules/unicum-gg/unicum-gg-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [unicum.gg Domain Security](https://apis.io/security/unicum-gg/unicum-gg-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://unicum.gg)
+- [Documentation](https://unicum.gg/docs)
+- [Support](https://unicum.gg/support)
+- [Status](https://status.unicum.gg/)
+
+## API Evangelist rating
+
+**Kin Score 27.9** — thin · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 53.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 27.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/unicum-gg/](https://apis.io/providers/unicum-gg/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for unicum.gg: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/unicum-gg/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
